@@ -43,8 +43,8 @@ p {
 .emojis {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
     "one two"
     "three four";
